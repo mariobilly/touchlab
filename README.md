@@ -10,6 +10,28 @@ Inspired by TouchDesigner reels by [Ivan Puñal García](https://www.instagram.c
 [william](https://www.instagram.com/reel/DaVd7Gkuo4G/). TouchLab is an independent project, not affiliated with them
 or with Derivative (the makers of TouchDesigner), and shares no code with them.
 
+![TouchLab](docs/screenshot.jpg)
+
+<!-- videos:start -->
+## See it in action
+
+<p align="center"><a href="docs/videos/tutorial.mp4"><img src="docs/videos/tutorial.jpg" alt="How it works" width="640"></a><br><b>▶ <a href="docs/videos/tutorial.mp4">How it works</a></b> (0:58, with captions)</p>
+
+**Made with TouchLab, from a free Pexels clip and public-domain portraits (The Met)**
+
+<table><tr>
+<td width="33%" align="center"><a href="docs/videos/examples/dancer-ghost-cloud.mp4"><img src="docs/videos/examples/dancer-ghost-cloud.gif" alt="Ghost Cloud"></a><br><a href="docs/videos/examples/dancer-ghost-cloud.mp4">Ghost Cloud</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/dancer-signal-error.mp4"><img src="docs/videos/examples/dancer-signal-error.gif" alt="Signal Error"></a><br><a href="docs/videos/examples/dancer-signal-error.mp4">Signal Error</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/summon-creatures.mp4"><img src="docs/videos/examples/summon-creatures.gif" alt="Summon (mouse as a hand)"></a><br><a href="docs/videos/examples/summon-creatures.mp4">Summon (mouse as a hand)</a></td>
+</tr><tr>
+<td width="33%" align="center"><a href="docs/videos/examples/portraits-cell-poster.mp4"><img src="docs/videos/examples/portraits-cell-poster.gif" alt="Cell Poster, 4:5"></a><br><a href="docs/videos/examples/portraits-cell-poster.mp4">Cell Poster, 4:5</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/portraits-hand-gallery.mp4"><img src="docs/videos/examples/portraits-hand-gallery.gif" alt="Hand Gallery, 16:9"></a><br><a href="docs/videos/examples/portraits-hand-gallery.mp4">Hand Gallery, 16:9</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/quadtree-blueprint.mp4"><img src="docs/videos/examples/quadtree-blueprint.gif" alt="Quadtree Blueprint, 1:1"></a><br><a href="docs/videos/examples/quadtree-blueprint.mp4">Quadtree Blueprint, 1:1</a></td>
+</tr></table>
+
+Click any picture to play the video. Example sources: "A Woman Dancing Gracefully" by [Pavel Danilyuk](https://www.pexels.com/video/a-woman-dancing-gracefully-6939968/) (Pexels licence); portraits by Antonello da Messina, Giovanni di Francesco, Adriaen Hanneman, Velázquez and Hugo van der Goes, [The Met](https://www.metmuseum.org/) (CC0, see [samples/CREDITS.md](samples/CREDITS.md)). Summon and Quadtree draw everything themselves, steered by the mouse.
+<!-- videos:end -->
+
 ## Install
 
 You need:
@@ -183,6 +205,9 @@ npm run smoke
   and a clip from "A Woman Dancing Gracefully" by
   [Pavel Danilyuk](https://www.pexels.com/video/a-woman-dancing-gracefully-6939968/)
   ([Pexels licence](https://www.pexels.com/license/)). See [samples/CREDITS.md](samples/CREDITS.md).
+- Footage in the tutorial and examples: the sample portraits above (CC0) and "A Woman Dancing Gracefully" by
+  [Pavel Danilyuk](https://www.pexels.com/video/a-woman-dancing-gracefully-6939968/) ([Pexels licence](https://www.pexels.com/license/)).
+  In the tutorial, a 3-second clip of it (`samples/hands.mp4`) stands in for the webcam.
 
 ## Licence
 
