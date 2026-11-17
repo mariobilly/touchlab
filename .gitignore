@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+*.part
+*.part.*
+# copied / downloaded by scripts/setup-assets.mjs on npm install
+public/mediapipe/
+public/models/
+# the local server's logs and temp recordings, your output-folder setting
+logs/
+work/
+config.json
+# test fixtures and smoke-test screenshots
+test-fixtures/
+artifacts/
